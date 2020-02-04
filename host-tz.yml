@@ -18,7 +18,7 @@
     
     - name: Set hostname
       hostname: 
-        name: "{{ hostname }}" "{{ srvidx- }}"
+        name: "{{ hostname }}" "{{ srvidx }}"
           
     - name: Dump host facts
       setup: 
