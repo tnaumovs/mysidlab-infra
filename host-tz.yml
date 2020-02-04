@@ -18,7 +18,7 @@
     
     - name: Set hostname
       hostname:
-        name: "{{ hostname }}"
+        name: "{{ hostnameforsiduser208 }}"
           
     - name: Dump host facts
       setup: 
