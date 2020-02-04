@@ -17,8 +17,8 @@
       shell: date +%Z     
     
     - name: Set hostname
-      hostname:
-        name: "{{ hostnameforsiduser208 }}"
+      hostname: hostname-siduser208
+        name: "{{ hostname }}"
           
     - name: Dump host facts
       setup: 
